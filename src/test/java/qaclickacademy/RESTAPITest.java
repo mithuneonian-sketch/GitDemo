@@ -20,7 +20,7 @@ public class RESTAPITest {
 		
 		System.out.println("Postjira 21");
 		System.out.println("Postjira 22");
-		System.out.println("Postjira 23");
+	
 		
 		
 		
