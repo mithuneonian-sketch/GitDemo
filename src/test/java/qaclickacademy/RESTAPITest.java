@@ -29,6 +29,9 @@ public class RESTAPITest {
 		System.out.println("this is my fouth New QA Team"); 
 		System.out.println("this is my Fifth New QA Team"); 
 		
+		System.out.println("this is my sex New QA Team"); 
+		System.out.println("this is my seven New QA Team"); 
+		
 		
 		
 		
