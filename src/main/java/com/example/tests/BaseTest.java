@@ -17,6 +17,7 @@ public class BaseTest {
         
         // HEADLESS MODE FOR JENKINS (uncomment if Jenkins crashes running UI tests)
         // options.addArguments("--headless=new"); 
+        options.addArguments("--headless=new"); 
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
 
