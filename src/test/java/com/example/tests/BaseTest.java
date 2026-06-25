@@ -15,7 +15,7 @@ public class BaseTest {
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
         
-        options.addArguments("--headless=new");
+       // options.addArguments("--headless=new");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
 
@@ -29,5 +29,9 @@ public class BaseTest {
         if (driver != null) {
             driver.quit();
         }
+        
+        System.out.print("just running custom workspace from jenkins");
+        
+        
     }
 }
