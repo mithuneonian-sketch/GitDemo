@@ -15,9 +15,7 @@ public class BaseTest {
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
         
-        // HEADLESS MODE FOR JENKINS (uncomment if Jenkins crashes running UI tests)
-        // options.addArguments("--headless=new"); 
-        options.addArguments("--headless=new"); 
+        options.addArguments("--headless=new");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
 
